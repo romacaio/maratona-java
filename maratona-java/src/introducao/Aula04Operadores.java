@@ -1,8 +1,8 @@
 package introducao;
 
 public class Aula04Operadores {
-    public static void main(String[] args){
-        // + - * /
+    public static void main(String[] args) {
+        // +  -  *  /
         int num1 = 10;
         int num2 = 20;
         int resultado = num1 + num2;
@@ -16,5 +16,25 @@ public class Aula04Operadores {
         System.out.println(resultado);
         System.out.println("Valor: " + num1 + num2); // vai interpretar o + da adição como contenação
         System.out.println("Valor: " + (num1 + num2));
+
+        // % (resto divisão)
+        int resto = 20 % 2;
+        System.out.println();
+        System.out.println(resto);
+
+        // < >  <=  >= == !=
+
+        boolean isDezMaiorQue20 = 10 > 20;
+        boolean isDezMenorQue20 = 10 < 20;
+        boolean isDezIgualQue20 = 10 == 20;
+        boolean isDezIgualQue10 = 10 == 10;
+        boolean isDezDiferenteQue10 = 10 != 10;
+
+        System.out.println();
+        System.out.println("isDezMaiorQue20 " + isDezMaiorQue20);
+        System.out.println("isDezMenorQue20 " + isDezMenorQue20);
+        System.out.println("isDezIgualQue20 " + isDezIgualQue20);
+        System.out.println("isDezIgualQue10 " + isDezIgualQue10);
+        System.out.println("isDezDiferenteQue10 " + isDezDiferenteQue10);
     }
 }
