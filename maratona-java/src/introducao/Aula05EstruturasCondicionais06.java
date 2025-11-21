@@ -25,7 +25,7 @@ public class Aula05EstruturasCondicionais06 {
                 break;
         }
 
-        // outra forma
+        // outras formas
         System.out.println();
         switch (dia) {
             case 6, 7:
@@ -37,6 +37,13 @@ public class Aula05EstruturasCondicionais06 {
             default:
                 System.out.println("Opção Inválida");
                 break;
+        }
+        // não tem necessidade do break.
+        switch (dia) {
+            case 6, 7 -> System.out.println("Fim de semana");
+            case 1, 2, 3, 4, 5 -> System.out.println("Dia útil");
+            default -> System.out.println("Opção Inválida");
+
         }
     }
 }
