@@ -9,7 +9,7 @@ public class CalculadoraTest03 {
         double resultado = calculadora.dividirDoisNumeros(4, 2);
         System.out.println(resultado);
         System.out.println("-----------------");
-        calculadora.imprimedivisaoDeDoisNumeros2(4, 0);
+        calculadora.imprimedivisaoDeDoisNumeros(4, 0);
 
     }
 }
