@@ -1,9 +1,7 @@
 package javacore.Jmodificadorfinal.dominio;
 
-public class Carro {
-    private String nome;
-    public static final double VELOCIDADE_LIMITE = 250;
-    public final Comprador COMPRADOR = new Comprador();
+public class Comprador {
+    String nome;
 
     public String getNome() {
         return this.nome;
@@ -13,4 +11,8 @@ public class Carro {
         this.nome = nome;
     }
 
+    @Override
+    public String toString() {
+        return "nome: " + this.nome;
+    }
 }
