@@ -3,10 +3,12 @@ package javacore.Kenum.dominio;
 public class Cliente {
     private String nome;
     private TipoCliente tipoCliente;
+    private TipoPagamento tipoPagamento;
 
-    public Cliente(String nome, TipoCliente tipoCliente) {
+    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
     }
 
     public String getNome() {
@@ -25,8 +27,17 @@ public class Cliente {
         this.tipoCliente = tipoCliente;
     }
 
+    public TipoPagamento getTipoPagamento() {
+        return this.tipoPagamento;
+    }
+
+    public void setTipoPagamento(TipoPagamento tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
+    }
+
     @Override
     public String toString() {
-        return "Nome: " + this.nome + " tipoCliente: " + this.tipoCliente;
+        return "Nome: " + this.nome + " tipoCliente: " + this.tipoCliente.getNomeRelatiorio() +
+                " TipoClienteInt: " + tipoCliente.VALOR + " TipoPagamento: " + this.tipoPagamento;
     }
 }
