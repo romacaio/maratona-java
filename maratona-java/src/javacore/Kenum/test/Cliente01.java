@@ -20,6 +20,6 @@ public class Cliente01 {
         TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
         System.out.println(tipoCliente2);
 
-
+        System.out.println(TipoCliente.PESSOA_JURIDICA.ordinal());
     }
 }
