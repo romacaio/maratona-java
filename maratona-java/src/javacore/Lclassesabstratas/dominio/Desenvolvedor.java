@@ -10,4 +10,5 @@ public class Desenvolvedor extends Funcionario {
     public void calculaBonus() {
         this.salario = salario + salario * 0.05;
     }
+
 }
