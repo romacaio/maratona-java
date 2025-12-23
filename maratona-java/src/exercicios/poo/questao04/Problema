@@ -1,0 +1,10 @@
+Crie uma classe Estatisticas com:
+
+- static final double PI = 3.14159
+- Static int contadorObjetos
+
+Faça métodos estáticos que:
+
+- Recebem um array int[]
+- Retornam soma, média, maior e menor valor
+- Use no main.

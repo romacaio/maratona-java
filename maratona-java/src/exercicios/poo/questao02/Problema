@@ -1,0 +1,8 @@
+
+Crie uma hierarquia de classes de animais (Animal, Cachorro, Gato, Cavalo).
+
+Cada subclasse sobrescreve emitirSom().
+
+Depois, crie uma classe Zoologico com um array de Animal onde você coloca diferentes animais.
+
+Percorra o array e chame emitirSom() de cada um.

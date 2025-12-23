@@ -1,0 +1,4 @@
+
+Crie um enum DiaSemana com dias da semana e um valor boolean indicando fim de semana.
+Crie um array de dias (ex: preencher 7 posições).
+Use um for para imprimir quais dias são fim de semana.
