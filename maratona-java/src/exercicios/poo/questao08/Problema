@@ -1,0 +1,8 @@
+Escreva um código em Java, que organize a tabela de um campeonato
+de futebol, recebendo inicialmente os nomes dos times (4 Times), em seguida
+seja preenchido os placares de cada jogo (12 jogos, todos contra todos).
+
+OBS :
+O time vencedor obterá 3 pontos, em caso de empate deverá ter 1 ponto para
+cada time. Ao final do preenchimento dos 12 jogos, deverá imprimir a tabela com
+o ranking (do 1o ao último) com os times e pontuação.
