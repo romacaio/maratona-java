@@ -1,0 +1,23 @@
+Você foi contratado por uma academia para criar um programa que calcule o
+Índice de Massa Corporal (IMC) de seus clientes e classifique cada um de
+acordo com as faixas de IMC definidas pela Organização Mundial da Saúde
+(OMS). O programa deve funcionar da seguinte forma:
+
+    - O sistema deve solicitar o nome, peso (em kg) e altura (em metros) de cada
+    cliente.
+
+Após calcular o IMC, o sistema deve classificar o cliente em uma das seguintes
+categorias:
+    - Abaixo do peso (IMC &lt; 18.5)
+    - Peso normal (18.5 ≤ IMC &lt; 24.9)
+    - Sobrepeso (25 ≤ IMC &lt; 29.9)
+    - Obesidade Grau I (30 ≤ IMC &lt; 34.9)
+    - Obesidade Grau II (35 ≤ IMC &lt; 39.9)
+    - Obesidade Grau III (IMC ≥ 40)
+
+Os dados dos clientes devem ser armazenados em uma fila, e o programa
+deve pergunta o número de inserção de clientes, o programa deve rodar até inserir todos.
+
+Ao final da entrada de dados, o programa deve percorrer a fila e imprimir o
+nome, IMC e a categoria de cada cliente.
+Escreva um código em Java que atenda às especificações acima.

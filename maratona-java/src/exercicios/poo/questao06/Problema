@@ -1,0 +1,20 @@
+Maria e Luzia são proprietários de uma clínica médica que atende tanto
+consultas normais quanto consultas de emergência. Eles solicitaram um
+programa para organizar as filas de atendimento para melhorar a eficiência dos
+atendimentos.
+
+Josinaldo, gerente de T.I. da clínica, passou as seguintes instruções para você:
+
+    - A clínica pretende atender até 500 pacientes por dia.
+
+    -  Ao chegar na clínica, o paciente deve informar se está buscando atendimento
+    de emergência ou uma consulta normal.
+
+    - As filas de atendimento devem ser organizadas de modo que, para cada 4
+    consultas normais chamadas, deve-se chamar um paciente de emergência.
+
+Escreva um código em Java que simule o sistema de filas de atendimento da
+clínica, conforme as regras descritas acima. O sistema deve permitir a entrada
+de pacientes na fila, indicar quando um paciente deve ser chamado para
+atendimento, e respeitar a proporção entre atendimentos normais e
+emergenciais.
