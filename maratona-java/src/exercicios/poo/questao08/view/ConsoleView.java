@@ -8,8 +8,9 @@ import java.util.Scanner;
 
 public class ConsoleView {
 
+    private final Scanner sc = new Scanner(System.in);
+
     public Campeonato incricaoTimes() {
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Quantos times serão inscritos no campeonato? ");
         int numTimes = sc.nextInt();
@@ -27,7 +28,6 @@ public class ConsoleView {
     }
 
     public void exibiPartidas(Campeonato campeonato) {
-        Scanner sc = new Scanner(System.in);
 
         Partida[] partidas = campeonato.getPartidas();
         int count = 1;
