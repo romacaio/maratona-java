@@ -1,4 +1,4 @@
-package javacore.Oexception.test;
+package javacore.Oexception.erro.test;
 
 public class StackOverFlowTest01 {
     public static void main(String[] args) {
