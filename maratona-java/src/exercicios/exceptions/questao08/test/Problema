@@ -1,0 +1,13 @@
+Exceção em cadeia
+
+Crie:
+
+Um método conectarBanco() que lance uma SQLException,
+Um método acessarSistema() que: Capture a SQLException
+
+Lance uma nova exceção, usando a exceção original como causa
+
+No main, capture a exceção final e imprima:
+
+- A mensagem
+- A causa (getCause())

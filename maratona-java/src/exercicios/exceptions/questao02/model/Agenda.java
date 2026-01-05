@@ -8,7 +8,7 @@ public class Agenda {
     private Contato[] contatos;
 
     public Agenda() {
-        this.contatos = new Contato[2];
+        this.contatos = new Contato[5];
     }
 
     public Contato consultaPorNome(String nome) throws ContatoNaoExisteException {

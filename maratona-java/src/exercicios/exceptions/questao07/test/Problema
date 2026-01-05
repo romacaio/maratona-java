@@ -1,0 +1,4 @@
+Crie um método validarIdade(int idade) que:
+
+Lance uma IllegalArgumentException se a idade for menor que 18,
+No main, capture a exceção e exiba a mensagem

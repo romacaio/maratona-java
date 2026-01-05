@@ -1,0 +1,9 @@
+Múltiplos catch e catch múltiplo
+
+Crie um programa que:
+
+Leia um número inteiro do usuário, tente acessar um índice de um array com esse número
+Trate separadamente:
+
+- Entrada inválida (InputMismatchException)
+- Índice inválido (ArrayIndexOutOfBoundsException)

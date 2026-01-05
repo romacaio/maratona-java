@@ -1,0 +1,6 @@
+Leitura simulada de arquivo
+
+Crie um método lerArquivo(String nome) que:
+
+Lance uma IOException se o nome do arquivo for vazio ou nulo,
+O método não deve tratar, apenas propagar com throws. O main deve tratar a exceção

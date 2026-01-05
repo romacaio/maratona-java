@@ -1,0 +1,6 @@
+Conversão de String
+
+Crie um método que:
+
+Receba uma String, tente convertê-la para int.
+Caso a string não seja numérica, capture a exceção e exiba uma mensagem amigável.

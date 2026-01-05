@@ -1,0 +1,7 @@
+Divisão segura
+
+Crie um programa que:
+
+Leia dois números inteiros, faça a divisão do primeiro pelo segundo
+trate a exceção de divisão por zero No finally, imprima: "Operação finalizada".
+
