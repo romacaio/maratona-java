@@ -1,0 +1,15 @@
+package javacore.Bintroducaometodos.test;
+
+import javacore.Bintroducaometodos.dominio.Calculadora;
+
+public class CalculadoraTest03 {
+    public static void main(String[] args) {
+
+        Calculadora calculadora = new Calculadora();
+        double resultado = calculadora.dividirDoisNumeros(4, 2);
+        System.out.println(resultado);
+        System.out.println("-----------------");
+        calculadora.imprimedivisaoDeDoisNumeros(4, 0);
+
+    }
+}

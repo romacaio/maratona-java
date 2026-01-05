@@ -1,0 +1,22 @@
+1. Sistema Bancário
+
+- Crie uma interface chamada TransacaoBancaria contendo os métodos
+depositar(double valor), sacar(double valor) e getSaldo().
+
+- Implemente uma classe ContaBancaria que possua os atributos titular
+(String), numeroConta (int) e saldo (double). Essa classe deve
+implementar a interface TransacaoBancaria, onde:
+
+    O saldo inicial deve ser definido no construtor.
+    O método depositar deve adicionar saldo.
+    O método sacar deve descontar uma taxa de R$1,00 por operação.
+
+- Crie uma subclasse ContaEspecial, onde a taxa de saque é de R$0,50.
+
+- ○ Utilize um programa principal para permitir ao usuário escolher o tipo de
+conta, definir um saldo inicial e realizar uma operação de saque. Exiba o
+saldo final ao usuário.
+
+- lançar e tratar uma exceção SaldoInsuficienteException sempre que o usuário tentar sacar um
+valor maior que o saldo disponível. Garanta que o programa continue rodando mesmo após uma tentativa
+de saque inválida.
