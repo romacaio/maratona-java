@@ -18,6 +18,6 @@ public class StringTest02 {
         System.out.println(numeros.substring(0, 3));
         System.out.println(numeros.substring(3));
 
-        System.out.println(nome.trim());
+
     }
 }
