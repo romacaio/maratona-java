@@ -11,6 +11,7 @@ public class WrappersTest01 {
         char charP = 'A';
         boolean booleanP = false;
 
+        // boxing
         Byte byteW = 1;
         Short shortW = 1;
         Integer intW = 1;
@@ -19,6 +20,24 @@ public class WrappersTest01 {
         Double doubleW = 10D;
         Character charW = 'A';
         Boolean booleanW = false;
+
+        // unboxing
+        int i = intW;
+
+
+        Integer intW2 = Integer.parseInt("1");
+        Boolean verdadeiro = Boolean.parseBoolean("truE");
+        System.out.println(verdadeiro);
+
+        System.out.println(Character.isDigit('a'));
+        System.out.println(Character.isDigit('1'));
+        System.out.println(Character.isLetterOrDigit('!'));
+        System.out.println(Character.isUpperCase('A'));
+        System.out.println(Character.isLowerCase('a'));
+
+        System.out.println(Character.toLowerCase('A'));
+        System.out.println(Character.toUpperCase('a'));
+
 
     }
 }
