@@ -7,20 +7,21 @@ public class DateFormatTest01 {
     public static void main(String[] args) {
 
         Calendar cal = Calendar.getInstance();
-        DateFormat[] dt = new DateFormat[7];
+        DateFormat[] df = new DateFormat[7];
 
-        dt[0] = DateFormat.getInstance();
-        dt[1] = DateFormat.getDateInstance();
-        dt[2] = DateFormat.getDateTimeInstance();
+        df[0] = DateFormat.getInstance();
+        df[1] = DateFormat.getDateInstance();
+        df[2] = DateFormat.getDateTimeInstance();
 
-        dt[3] = DateFormat.getDateInstance(DateFormat.SHORT);
-        dt[4] = DateFormat.getDateInstance(DateFormat.MEDIUM);
-        dt[5] = DateFormat.getDateInstance(DateFormat.LONG);
-        dt[6] = DateFormat.getDateInstance(DateFormat.FULL);
+        df[3] = DateFormat.getDateInstance(DateFormat.SHORT);
+        df[4] = DateFormat.getDateInstance(DateFormat.MEDIUM);
+        df[5] = DateFormat.getDateInstance(DateFormat.LONG);
+        df[6] = DateFormat.getDateInstance(DateFormat.FULL);
 
-        for (DateFormat dateFormat : dt){
+        for (DateFormat dateFormat : df) {
             System.out.println(dateFormat.format(cal.getTime()));
         }
+
 
     }
 }
