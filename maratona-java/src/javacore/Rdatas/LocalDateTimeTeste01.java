@@ -1,7 +1,6 @@
 package javacore.Rdatas;
 
 import java.time.*;
-import java.time.chrono.Era;
 
 public class LocalDateTimeTeste01 {
     public static void main(String[] args) {
