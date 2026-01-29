@@ -1,0 +1,7 @@
+Calculadora de Idade Precisa:
+
+Crie um método que receba uma data de nascimento (LocalDate).
+
+Use ChronoUnit.YEARS para calcular a idade exata em anos.
+
+Use ChronoUnit.DAYS para calcular quantos dias de vida a pessoa tem no total.

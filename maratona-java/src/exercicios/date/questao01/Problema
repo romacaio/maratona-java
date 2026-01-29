@@ -1,0 +1,9 @@
+O Viajante Global:
+
+Um voo sai de São Paulo (America/Sao_Paulo) no dia 20/08/2025 às 10:00 da manhã.
+
+O voo tem duração de 12 horas.
+
+O destino é Tóquio (Asia/Tokyo).
+
+Qual será o horário local (LocalDateTime) no relógio do aeroporto de Tóquio na chegada?

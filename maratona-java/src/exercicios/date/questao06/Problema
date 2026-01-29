@@ -1,0 +1,7 @@
+Log de Servidor (Machine Time):
+
+Capture o momento exato agora usando Instant.now().
+
+Converta esse Instant para um ZonedDateTime em Londres (UTC) e outro para a Califórnia (America/Los_Angeles).
+
+Observe que o Instant permanece o mesmo, mas a representação da hora muda.

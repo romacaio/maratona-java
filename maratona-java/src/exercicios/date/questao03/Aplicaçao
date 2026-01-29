@@ -1,0 +1,5 @@
+Verificação de Fim de Expediente:
+
+Defina um LocalTime para o fim do expediente (ex: 18:00).
+
+Receba uma hora qualquer. Verifique se essa hora é antes (isBefore) ou depois (isAfter) do expediente.

@@ -1,0 +1,5 @@
+Elabore um programa em Java que leia o nome do usuário e obtenha a hora atual do sistema
+para imprimir na tela uma mensagem personalizada de "Bom dia", "Boa Tarde" ou "Boa Noite",
+de acordo com a hora do sistema.
+
+Exemplo de saída de dados: Bom dia Eric Xavier!

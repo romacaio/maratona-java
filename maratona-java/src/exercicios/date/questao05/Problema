@@ -1,0 +1,9 @@
+Sistema de Prazos (Ajustadores):
+
+Dada uma data de assinatura de contrato (LocalDate):
+
+Encontre o primeiro dia do próximo mês (para faturamento).
+
+Encontre o último dia do ano corrente.
+
+Utilize TemporalAdjusters para encontrar a próxima sexta-feira (para agendar uma reunião).

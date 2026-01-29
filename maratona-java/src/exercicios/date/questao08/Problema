@@ -1,0 +1,18 @@
+Desafio Integrado (Boss Fight) 🦁
+Cenário: Sistema de Assinatura de Streaming Global.
+
+Você deve criar uma classe GerenciadorDeAssinatura que faça o seguinte:
+
+Receba a data/hora exata da assinatura (Instant), o fuso horário do usuário (ZoneId) e o preço base em Dólares (BigDecimal).
+
+Calcule a data de expiração do período de testes (7 dias) usando Period ou ChronoUnit.
+
+Se a assinatura ocorrer numa sexta-feira após as 18h (horário local do usuário), o início da cobrança deve ser empurrado para a próxima segunda-feira (use TemporalAdjusters).
+
+Gere um "Recibo" (String) contendo:
+
+A data da assinatura no fuso do usuário (formatada bonita).
+
+A data do primeiro pagamento.
+
+O valor convertido (simbolicamente) para a moeda local (Use NumberFormat com o Locale apropriado para o fuso — ex: se for Europe/Paris, exiba em Euros).

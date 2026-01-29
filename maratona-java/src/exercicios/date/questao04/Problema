@@ -1,0 +1,5 @@
+Crie uma data e hora (LocalDateTime) para uma consulta médica: 25 de Outubro de 2025 às 14:30.
+
+O médico atrasou. Adicione 1 hora e 15 minutos a esse horário manualmente (sem usar Duration ainda).
+
+Imprima o horário original e o atualizado.

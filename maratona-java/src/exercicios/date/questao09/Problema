@@ -1,0 +1,6 @@
+Integração com Banco de Dados (Offset):
+
+Crie um OffsetDateTime representando uma data com um deslocamento explícito de -03:00
+(sem regras de horário de verão, apenas o deslocamento puro).
+
+Converta esse objeto para um Instant e imprima.
