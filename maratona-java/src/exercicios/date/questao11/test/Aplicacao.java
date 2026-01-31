@@ -7,6 +7,7 @@ import exercicios.date.questao11.model.NivelTrabalhador;
 import exercicios.date.questao11.model.Trabalhador;
 
 import java.time.LocalDate;
+import java.time.Year;
 import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
