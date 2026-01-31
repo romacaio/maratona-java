@@ -1,0 +1,38 @@
+Gerador de Faturas Mensais
+
+Simular a geração de uma fatura mensal (tipo cartão / serviço), usando:
+
+- competência (mês/ano)
+- datas corretas
+- prazo
+- formatação amigável
+
+ O que o sistema deve fazer:
+
+1. Receber a competência:
+- ex: 01/2026
+
+2. Calcular datas da fatura:
+
+Com base no YearMonth:
+Data de fechamento → último dia do mês
+Data de vencimento → 10 dias após o fechamento
+Se cair em fim de semana → ajustar para o próximo dia útil
+
+3. Calcular período da fatura:
+
+- Período coberto
+início → primeiro dia do mês
+fim → último dia do mês
+
+4️. Exibir dados formatados:
+
+- Exemplo de saída esperada
+
+FATURA - JANEIRO 2026
+
+Período: 01/01/2026 a 31/01/2026
+Fechamento: 31/01/2026
+Vencimento: 10/02/2026
+
+Valor total: R$ 1.234,56
