@@ -1,4 +1,4 @@
-package javacore.Rdatas;
+package javacore.Rdatas.test;
 
 import java.time.*;
 import java.time.chrono.JapaneseDate;
