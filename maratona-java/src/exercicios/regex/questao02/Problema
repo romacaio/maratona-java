@@ -1,0 +1,5 @@
+O Extrator de Datas
+
+Cenário: Você recebeu um texto sujo: "Relatório gerado em 15/05/2023. Revisão em 20-10-2023 e validade até 01.01.2024."
+
+Sua tarefa: Crie uma regex que encontre as datas, independentemente do separador ser /, - ou ..

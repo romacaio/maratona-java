@@ -1,0 +1,6 @@
+Extraindo o DDD
+Cenário: Você tem uma lista de telefones: (11) 98888-7777, (21) 97777-6666.
+
+Objetivo: Você quer capturar apenas os dois dígitos do DDD que estão dentro dos parênteses.
+
+Sua tarefa: Escreva a regex para encontrar o DDD.

@@ -1,0 +1,13 @@
+Crie regex para validar:
+
+- Nome completo com pelo menos dois nomes
+- Apenas letras
+- Separados por espaço
+
+Exemplos válidos:
+Caio Silva
+Maria Souza
+
+Inválidos:
+Caio
+Caio123 Silva

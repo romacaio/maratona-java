@@ -1,0 +1,11 @@
+Validador de Usuário
+
+Cenário: Você está criando um sistema de cadastro. O nome de usuário deve seguir estas regras -
+
+Deve ter entre 5 e 12 caracteres.
+
+Pode conter apenas letras minúsculas e números.
+
+Não pode começar com um número.
+
+Sua tarefa: Escreva a regex que valida esse padrão.

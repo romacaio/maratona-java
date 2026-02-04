@@ -1,0 +1,7 @@
+Ocultador de Dados Sensíveis
+
+Cenário: Você precisa mascarar números de cartões de crédito em um log de sistema para segurança.
+
+Texto: "Pagamento aprovado para o cartão 1234-5678-9012-3456."
+
+Objetivo: Transformar em "Pagamento aprovado para o cartão XXXX-XXXX-XXXX-3456."
