@@ -1,0 +1,8 @@
+O Filtro de Domínios
+Cenário: Você tem uma lista de emails, mas seu sistema não pode aceitar emails que venham do domínio @lixo.com
+
+contato@gmail.com -> OK
+
+usuario@lixo.com -> BLOQUEAR
+
+Sua tarefa: Use um Lookahead Negativo (?!...) para barrar o domínio indesejado.

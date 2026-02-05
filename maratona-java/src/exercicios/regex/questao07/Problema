@@ -1,0 +1,10 @@
+Limpeza de "Sujeira" em Preços
+Cenário: Você está fazendo um scraping de um site e o preço veio assim: R$ 1.250,50.
+
+Para salvar no banco, você precisa remover tudo o que não for número.
+
+Texto original: R$ 1.250,50
+
+Resultado esperado: 125050
+
+Sua tarefa: Use o método replaceAll com uma regex que identifique tudo o que NÃO é dígito.
