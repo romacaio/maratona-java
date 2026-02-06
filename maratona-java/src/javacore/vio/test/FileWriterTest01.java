@@ -17,7 +17,7 @@ public class FileWriterTest01 {
 
         try (FileWriter fw = new FileWriter(file, true)) {
             fw.write("O Dev Dojo é lindo, é o melhor curso do brasilllll\nContinuando a cantoria na próxima linha\n");
-            fw.flush();
+            fw.flush(); // força a grvação imediata dos dados em Buffer, evita perda
 
         } catch (IOException e) {
             e.printStackTrace();
