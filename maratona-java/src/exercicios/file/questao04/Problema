@@ -1,0 +1,20 @@
+O Analista de Logs
+Imagine que você tem um arquivo chamado sistema.log com milhares de linhas, mas você só quer extrair os erros.
+
+O Arquivo (sistema.log):
+
+Plaintext
+[2023-10-01 10:00] INFO: Sistema iniciado
+[2023-10-01 10:05] ERROR: Falha na conexão com banco (ID: 404)
+[2023-10-01 10:10] INFO: Usuário logado
+[2023-10-01 10:15] ERROR: Memória insuficiente (ID: 500)
+
+Sua tarefa:
+
+Use BufferedReader para ler o arquivo sistema.log.
+
+Use uma Regex para identificar apenas as linhas que contêm a palavra ERROR.
+
+Use um Grupo de Captura na Regex para extrair o que está dentro do parênteses do ID (ex: 404, 500).
+
+Salve apenas esses IDs em um novo arquivo chamado erros_id.txt usando BufferedWriter.

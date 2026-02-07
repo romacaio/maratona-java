@@ -1,0 +1,11 @@
+O Escritor de Diário (FileWriter + BufferedWriter)
+
+Cenário: Crie um programa que peça ao usuário para digitar 3 frases.
+O programa deve salvar essas frases em um arquivo chamado diario.txt.
+
+Regras:
+
+Use FileWriter e envolva-o em um BufferedWriter para melhor performance.
+
+Cada frase deve estar em uma linha nova.
+Não esqueça de fechar os recursos (use o try-with-resources).

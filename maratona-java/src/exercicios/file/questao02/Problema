@@ -1,0 +1,12 @@
+O Copiador de Arquivos (O desafio final)
+
+Cenário: Você precisa criar uma função de "Backup".
+Objetivo: O programa deve ler um arquivo existente (origem.txt) e criar uma cópia exata dele chamada copia_origem.txt.
+
+Passo a passo:
+
+Use BufferedReader para ler o arquivo de origem.
+
+Use BufferedWriter para escrever no arquivo de destino.
+
+Leia uma linha -> Escreva essa linha no destino -> Adicione uma nova linha com newLine().

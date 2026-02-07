@@ -1,0 +1,4 @@
+[2023-10-01 10:00] INFO: Sistema iniciado
+[2023-10-01 10:05] ERROR: Falha na conexão com banco (ID: 404)
+[2023-10-01 10:10] INFO: Usuário logado
+[2023-10-01 10:15] ERROR: Memória insuficiente (ID: 500)

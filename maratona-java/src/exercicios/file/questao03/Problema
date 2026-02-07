@@ -1,0 +1,11 @@
+O Leitor de Configurações (FileReader + BufferedReader)
+Cenário: Crie manualmente um arquivo chamado config.txt com o seguinte conteúdo:
+
+Plaintext
+versao:1.0
+usuario:admin
+timeout:30
+
+Sua tarefa: Crie um código Java que leia esse arquivo linha por linha e imprima no console apenas o que vem depois dos dois pontos.
+
+Dica: Use reader.readLine() dentro de um while e o método split(":") da String.

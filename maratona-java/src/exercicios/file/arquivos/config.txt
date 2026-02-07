@@ -1,0 +1,4 @@
+Plaintext
+versao:1.0
+usuario:admin
+timeout:30
