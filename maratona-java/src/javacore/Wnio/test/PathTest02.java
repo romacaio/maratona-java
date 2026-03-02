@@ -26,6 +26,8 @@ public class PathTest02 {
 
         Path source = filePath;
         Path target = Path.of(filePath.getParent().toString(), "file_renamed.txt");
+
+        // StandardCopyOption -> opção de cópia padrão
         Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
     }
 }
