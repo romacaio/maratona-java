@@ -2,7 +2,7 @@ package javacore.Wnio.test;
 
 import java.nio.file.Path;
 
-public class PathTest03 {
+public class ResolveTest01 {
     public static void main(String[] args) {
         Path dir = Path.of("home/Caio");
         Path file = Path.of("dev/arquivo.txt");
