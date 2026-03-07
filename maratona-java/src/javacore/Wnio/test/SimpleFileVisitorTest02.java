@@ -39,5 +39,6 @@ public class SimpleFileVisitorTest02 {
         Path root = Path.of("pasta");
         Files.walkFileTree(root, new ListAllFiles());
 
+
     }
 }
