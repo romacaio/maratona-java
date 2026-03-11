@@ -12,7 +12,12 @@ public class EqualsTest01 {
         Smartphone s2 = new Smartphone("1ABC1", "Iphone");
 
         System.out.println(s1.equals(s2));
-        // utiliza o equals herdado do Objcect que faz apenas uma comparação de referência com "=="
+
+        /*  utiliza o equals herdado do Objcect que faz apenas uma comparação de referência com "=="
+        Por isso, sobrescrevemos o método equals dentro da classe SmartPhone com comportamento personalizado.
+
+         */
+
 
     }
 }
