@@ -1,6 +1,7 @@
 package javacore.Xserialization.test;
 
 import javacore.Xserialization.dominio.Aluno;
+import javacore.Xserialization.dominio.Turma;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -11,8 +12,12 @@ import java.nio.file.Path;
 public class SerializationTest01 {
     public static void main(String[] args) {
         Aluno aluno = new Aluno(1L, "Caio César", "1234");
+        Turma turma = new Turma("Maratona Java Virado no Jiraya");
+        aluno.setTurma(turma);
+
         serializar(aluno);
         deserializar();
+        // deserialização não utilizar o constutor
     }
 
     private static void serializar(Aluno aluno) {
