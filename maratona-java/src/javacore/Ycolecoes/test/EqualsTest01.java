@@ -16,8 +16,7 @@ public class EqualsTest01 {
         /*  utiliza o equals herdado do Objcect que faz apenas uma comparação de referência com "=="
         Por isso, sobrescrevemos o método equals dentro da classe SmartPhone com comportamento personalizado.
 
-         */
-
+        */
 
     }
 }

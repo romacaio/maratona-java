@@ -9,7 +9,7 @@ public class Smartphone {
         this.marca = marca;
     }
 
-    /* Regras pra uma boa sobrescrita do método equals
+    /* Regras pra uma boa sobrescrita do equals
 
     reflexivo: um objeto deve ser igual a ele mesmo, x.equals(x) == true, menos se for null.
     simétrico: para x e y diferentes de null, se y.equals(x) == true, logo x.equals(y) == true tbm.
@@ -27,6 +27,18 @@ public class Smartphone {
         Smartphone smartphone = (Smartphone) obj;
         return this.serialNumber != null && this.serialNumber.equals(smartphone.getSerialNumber());
 
+    }
+
+    /* Regras para sobrescrita do hashCode
+
+    se x.equals(y) == true, então x.hashCode() == y.hashCode().
+    se x.hashCode() == y.hashCode, não necessariamente x.equals(y) tem que ser true.
+    se x.hashCode() != y.hashCode, x.equals(y) deverá ser false.
+     */
+
+    @Override
+    public int hashCode() {
+        return serialNumber == null ? 0 : this.serialNumber.hashCode();
     }
 
     public String getSerialNumber() {
