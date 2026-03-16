@@ -1,4 +1,4 @@
-package javacore.Ycolecoes;
+package javacore.Ycolecoes.test;
 
 import java.util.ArrayList;
 import java.util.List;
