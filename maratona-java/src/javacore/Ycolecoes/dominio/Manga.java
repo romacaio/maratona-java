@@ -2,7 +2,7 @@ package javacore.Ycolecoes.dominio;
 
 import java.util.Objects;
 
-public class Manga {
+public class Manga implements Comparable<Manga> {
     private Long id;
     private String nome;
     private double preco;
@@ -27,6 +27,23 @@ public class Manga {
     @Override
     public int hashCode() {
         return Objects.hash(id, nome);
+    }
+
+    @Override
+    public int compareTo(Manga outroManga) {
+        // se o this < outroManga -> return negativo
+        // se this == outroManga -> return 0
+        // se this > outroManga -> return positivo
+
+        /*
+        if (this.id < outroManga.getId()) return -1;
+        else if (this.id.equals(outroManga.getId())) return 0;
+        else return 1;
+
+         */
+
+        // wrappers já possuem o compareTo implementados
+        return this.id.compareTo(outroManga.getId());
     }
 
     public Long getId() {
