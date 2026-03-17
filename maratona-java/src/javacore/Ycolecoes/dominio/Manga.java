@@ -43,7 +43,7 @@ public class Manga implements Comparable<Manga> {
          */
 
         // wrappers já possuem o compareTo implementados
-        return this.id.compareTo(outroManga.getId());
+        return this.nome.compareTo(outroManga.getNome());
     }
 
     public Long getId() {
