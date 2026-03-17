@@ -2,7 +2,6 @@ package javacore.Ycolecoes.test;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 
 public class ListSortTest01 {
