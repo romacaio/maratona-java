@@ -57,7 +57,7 @@ public class NavigableSetTest01 {
         /* métodos do Navigable:
 
         descendingSet() -> começa de baixo pra cima da árvore (ordem inversa).
-        
+
         lower <
         floor <=
         higher >
