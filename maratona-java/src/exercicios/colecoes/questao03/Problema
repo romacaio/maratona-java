@@ -1,0 +1,22 @@
+5️⃣ Controle de Estoque (HashMap + List)
+
+📌 Cenário:
+Sistema de estoque.
+
+Produto:
+
+id
+nome
+quantidade
+
+Regras:
+
+Buscar produto por id (rápido)
+Listar produtos ordenados por nome
+Remover produto com quantidade zero
+
+💡 Conceitos:
+
+HashMap
+Converter values() para List
+removeIf

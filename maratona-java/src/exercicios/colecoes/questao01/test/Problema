@@ -1,0 +1,10 @@
+
+1) Crie um código que insira 30 mil números numa ArrayList e pesquise-os. Vamos usar um método de
+System para cronometrar o tempo gasto:
+
+-  Utilize System.currentTimeMillis();
+
+2) Troque a ArrayList por um HashSet e veri•que o tempo que vai demorar
+
+- qual é mais lento lento? Ainserção de 30 mil elelementos ou as 30 mil bsucas? Descubra computando o tempo gasto
+  em cada for separadamente.

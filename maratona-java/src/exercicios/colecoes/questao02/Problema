@@ -1,0 +1,14 @@
+4️⃣ Fila de Atendimento (Queue + PriorityQueue)
+
+📌 Cenário:
+Sistema de hospital.
+
+Tipos de paciente:
+
+NORMAL
+PRIORITÁRIO
+
+Regras:
+
+Pacientes prioritários devem ser atendidos primeiro
+Dentro do mesmo tipo, ordem de chegada deve ser mantida
