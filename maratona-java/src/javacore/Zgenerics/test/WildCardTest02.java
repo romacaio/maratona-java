@@ -19,10 +19,11 @@ public class WildCardTest02 {
 
     }
 
-    private static void printConsulta(List<Aninal> animais) {
-        for (Aninal animal : animais) {
+    private static void printConsulta(List<Animal> animais) {
+        for (Animal animal : animais) {
             animal.consulta();
         }
+
         animais.add(new Cachorro());
     }
 }

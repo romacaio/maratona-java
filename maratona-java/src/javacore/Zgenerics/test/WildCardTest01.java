@@ -1,17 +1,17 @@
 package javacore.Zgenerics.test;
 
-abstract class Aninal {
+abstract class Animal {
     public abstract void consulta();
 }
 
-class Cachorro extends Aninal {
+class Cachorro extends Animal {
     @Override
     public void consulta() {
         System.out.println("Consultando doguinho");
     }
 }
 
-class Gato extends Aninal {
+class Gato extends Animal {
     @Override
     public void consulta() {
         System.out.println("Consultando gato");
@@ -26,12 +26,12 @@ public class WildCardTest01 {
         printConsulta(cachorros);
         printConsulta(gatos);
 
-        Aninal[] animais = {new Cachorro(), new Gato()};
+        Animal[] animais = {new Cachorro(), new Gato()};
         printConsulta(animais);
     }
 
-    private static void printConsulta(Aninal[] animais) {
-        for (Aninal animal : animais) {
+    private static void printConsulta(Animal[] animais) {
+        for (Animal animal : animais) {
             animal.consulta();
         }
         //animais[1] = new Gato();
