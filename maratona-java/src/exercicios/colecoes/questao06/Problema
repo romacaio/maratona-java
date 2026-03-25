@@ -1,0 +1,15 @@
+Sistema de Pedidos
+
+Cada pedido tem:
+
+- id
+- cliente
+- valor
+- data
+
+Implemente:
+
+Buscar pedido por id → HashMap
+Listar pedidos por data → TreeMap
+Fila de processamento → Queue
+Top 3 maiores pedidos → PriorityQueue
