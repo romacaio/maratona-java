@@ -23,7 +23,6 @@ public class WildCardTest02 {
         for (Animal animal : animais) {
             animal.consulta();
         }
-
         animais.add(new Cachorro());
     }
 }
