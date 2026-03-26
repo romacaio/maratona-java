@@ -1,0 +1,6 @@
+Exercício 02 — Ordenação genérica
+
+Crie um método que:
+
+Recebe uma List<T>
+Ordena usando Collections.sort

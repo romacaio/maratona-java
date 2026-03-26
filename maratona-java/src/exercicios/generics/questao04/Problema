@@ -1,0 +1,7 @@
+Exercício 04 — Comparator genérico
+
+Crie um método que:
+
+Recebe uma lista
+Recebe um Comparator<? super T>
+Ordena usando esse comparator

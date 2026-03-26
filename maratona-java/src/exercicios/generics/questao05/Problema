@@ -1,0 +1,4 @@
+Exercício 7 — Copiar listas (clássico)
+
+Implemente uma método genérico que receba duas listas (origem,destimo) e copie todos os elementos da origem
+para destino. Utilize Wildcard e generics <T>.

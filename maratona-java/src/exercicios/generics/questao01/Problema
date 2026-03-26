@@ -1,0 +1,6 @@
+Exercício 1 — Método genérico simples
+
+Crie um método genérico que:
+
+Recebe uma List<T>
+Retorna o último elemento

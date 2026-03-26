@@ -1,0 +1,13 @@
+Exercício 3: A Classe Genérica
+
+Objetivo: Criar uma classe genérica simples.
+
+Crie uma classe chamada ObjetoArmazenado<T>.
+
+Ela deve ter um atributo privado do tipo T.
+
+Um construtor que inicializa esse atributo.
+
+Métodos get e set.
+
+No main, instancie essa classe uma vez para guardar uma String e outra para guardar um Integer.
