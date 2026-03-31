@@ -19,7 +19,7 @@ public class ComportamentoPorParametroTest01 {
 
         System.out.println("-".repeat(50));
 
-        System.out.println(filtroCarrosPorAno(carros, 2015));
+        System.out.println(filtrarPorAnoAntes(carros, 2015));
     }
 
     private static List<Carro> filtroCarrosVerdes(List<Carro> carros) {
@@ -38,7 +38,7 @@ public class ComportamentoPorParametroTest01 {
         return carrosFiltrados;
     }
 
-    private static List<Carro> filtroCarrosPorAno(List<Carro> carros, int ano) {
+    private static List<Carro> filtrarPorAnoAntes(List<Carro> carros, int ano) {
         List<Carro> carrosFiltrados = new ArrayList<>();
         for (Carro carro : carros) {
             if (carro.getAno() < ano) carrosFiltrados.add(carro);
