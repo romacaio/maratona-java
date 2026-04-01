@@ -10,6 +10,8 @@ public class LambdaTest01 {
 
         List<Integer> integers = List.of(1, 2, 3, 4, 5, 6, 7);
         forEach(integers, num -> System.out.println(num));
+
+
     }
 
     private static <T> void forEach(List<T> lista, Consumer<T> consumer) {
