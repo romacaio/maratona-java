@@ -13,6 +13,13 @@ public class LambdaTest02 {
         // tipo e o retorno pode ser o mesmo
         List<String> stringsToUpperCase = map(strings, s -> s.toUpperCase());
         System.out.println(stringsToUpperCase);
+
+        /* simplificando ainda mais com method reference
+           regra: se a lambda chamar somente um método podemos usar o method reference
+
+         */
+        List<Integer> integers2 = map(strings, String::length);
+        System.out.println(integers2);
     }
 
     private static <T, R> List<R> map(List<T> lista, Function<T, R> function) {
