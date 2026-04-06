@@ -6,7 +6,7 @@ import javacore.ZZClambdas.service.AnimeComparators;
 import java.util.ArrayList;
 import java.util.List;
 
-// referência a um método de instância de um objeto específico
+// referência a um método de instância de um objeto específico -> Objeto::método
 public class MethodReferenceTest02 {
     public static void main(String[] args) {
         List<Anime> animeList = new ArrayList<>(List.of(

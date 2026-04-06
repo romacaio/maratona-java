@@ -6,7 +6,7 @@ import javacore.ZZClambdas.service.AnimeComparators;
 import java.util.ArrayList;
 import java.util.List;
 
-// referência para um método static
+// referência para um método static -> Classe::método
 
 public class MethodReferenceTest01 {
     public static void main(String[] args) {
