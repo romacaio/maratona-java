@@ -14,7 +14,6 @@ public class MangaRepository {
         return findBy(m -> m.getId().equals(id));
     }
 
-
     public static Optional<Manga> findByTitle(String title) {
         return findBy(m -> m.getTitulo().equals(title));
     }
