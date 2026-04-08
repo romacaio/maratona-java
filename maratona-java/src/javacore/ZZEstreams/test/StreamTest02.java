@@ -28,5 +28,6 @@ public class StreamTest02 {
                 .collect(Collectors.toList());
 
         System.out.println(titles);
+
     }
 }
