@@ -1,0 +1,9 @@
+1.1. Em um cenário de e-commerce, temos uma lista de pedidos com seu status.
+Considere a classe Pedido com atributos id e status (por exemplo, "PENDENTE", "ENTREGUE", etc.).
+
+- Utilizando Stream.filter, obtenha uma lista contendo apenas os pedidos cujo status é "ENTREGUE"
+
+1.2. Você mantém uma lista de usuários de um sistema, onde cada usuário tem atributos como nome,
+idade e ativo (indicando se o usuário está ativo no sistema)
+
+-Usando filter, obtenha os usuários que estão ativose têm idade maior ou igual a 18. Quantos usuários atendem a esses critérios?

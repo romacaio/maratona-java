@@ -1,0 +1,5 @@
+Considere que você tem listas dos funcionários de diferentes departamentos de uma empresa,
+representadas por um List<List<String>> onde cada sublista contém os nomes dos funcionários daquele departamento:
+
+Use flatMap para transformar essa estrutura em uma única lista contendo todos os nomes
+de funcionários da empresa (ou seja, “achate” a lista de listas em uma lista única).

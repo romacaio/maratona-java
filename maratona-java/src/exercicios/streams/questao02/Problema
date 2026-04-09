@@ -1,0 +1,4 @@
+Usando Streams, crie um stream infinito de números inteiros positivos e  filtre apenas aqueles divisíveis por 7.
+Então, obtenha o primeiro número maior que 100 que atenda a essa condição.
+
+(Dica: utilize Stream.iterate para gerar os números e uma operação terminal adequada para obter um único resultado.)

@@ -1,0 +1,9 @@
+Você tem uma lista de strings em formato CSV (valores separados por vírgula),
+onde cada String contém uma série de palavaras separas por vírgulas:
+
+-> List<List<String>> linguagens = Arrays.asList("java,python,c", "ruby,javascript", "c+,go");
+
+Use flatMap para obter uma lista de todos os valores individuais nessas strings. ou seja , a saída desejada
+para o exemplo acima seria uma lista:
+
+-> [java, python, c, ruby, javascript, c+, go]

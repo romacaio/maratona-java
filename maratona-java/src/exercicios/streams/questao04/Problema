@@ -1,0 +1,14 @@
+Dada uma lista de preços (valores Double)
+
+-> (50.0, 100.0, 35.5, 70.0)
+
+- Aplique um aumento de 10% em cada preço, gerando uma nova lista com ospreços reajustados.
+Por exemplo, 50.0 deve se tornar 55.0. (Não modifique que a lista original, crieuma nova com os valores alterados.)
+
+Você possui uma lista de números em formato de texto (Strings):
+
+-> ("10", "20", "30", "40")
+
+Converta essa lista de Strings em uma lista de Integer.
+(Desconsidere possíveis formatos inválidos na lista; assuma que todas as strings são números válidos.)
+

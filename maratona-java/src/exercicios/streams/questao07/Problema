@@ -1,0 +1,6 @@
+Suponha que você tem uma lista List<Optional<String>> contendo valores opcionais
+(alguns presentes, outros vazios).
+
+Utilizando Streams, obtenha uma lista de Strings com todos os valores presentes em talvezNomes,
+descartando os opcionais vazios. (Dica: há várias maneiras de fazer, mas tente pensar em como flatMap pode ajudar a
+simplificar a operação com Optional.)
