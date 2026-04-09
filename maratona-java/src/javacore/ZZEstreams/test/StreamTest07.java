@@ -16,9 +16,9 @@ public class StreamTest07 {
                 .reduce(0, (x, y) -> x + y)); // return Integer, inicia com um valor inicial
 
         // usando method reference
-        integers.stream()
-                .reduce(Integer::sum)  // return Optional
-                .ifPresent(System.out::println);
+            integers.stream()
+                    .reduce(Integer::sum)  // return Optional
+                    .ifPresent(System.out::println);
 
         System.out.println(integers.stream()
                 .reduce(0, Integer::sum)); // return Integer
