@@ -7,6 +7,7 @@ public class StreamTest07 {
         List<Integer> integers = List.of(1, 2, 3, 4, 5, 6);
 
         // somando os elementos da lista
+        // reduce = reduzir tudo a um valor
         integers.stream()
                 .reduce((x, y) -> x + y) // return Optional, pois a lista pode está vazia
                 .ifPresent(System.out::println);
