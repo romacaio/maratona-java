@@ -1,0 +1,18 @@
+1. Dada a lista de inteiros:
+
+->  List<Integer> integers = List.of(5, 10, 15, 20);
+
+Use stream.reduce para calcular a soma de todos os números da lista (não use intSteam.sum() ou Integer::sum)
+tente fazer manualmente o reduce.
+
+2. Considera a lista de nomes:
+
+->  List<String> nomes = List.of("Mariana", "João", "Alexandre", "Bianca");
+
+Utilize o reduce para econtrar nome mais longo da lista
+
+3. Dado essa lista de frases:
+
+->  List<String> frases = List.of("Olá mundo", "Java Streams", "Reduce");
+
+Use o reduce para calcular o número total de caracteres de todas as Strings da lista.
