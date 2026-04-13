@@ -29,7 +29,7 @@ public class StreamTest13 {
     nesse exemplo estamos usando uma Enum (Promotion) não existente nela.
 
     Por isso, temos que fazer uma lógica a mais, onde caso o ln.getPrice() seja menor que 6 passamos -> UNDER_PROMOTION
-//    como chave e caso seja maior passamos -> NORMAL_PRICE
+    como chave e caso seja maior passamos -> NORMAL_PRICE
      */
     public static void main(String[] args) {
         Map<Promotion, List<LigthNovel>> collect = ligthNovel.stream()

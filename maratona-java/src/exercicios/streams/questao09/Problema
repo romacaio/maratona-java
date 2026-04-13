@@ -1,0 +1,16 @@
+1. Dada uma lista de números inteiros:
+
+-> List<Integer> numerosPares = numeros.stream()
+
+- Use o filter e então collect para obter uma List<Integer> contendo apenas números pares da lista original.
+
+2. Considere uma lista de nomes de linguagens de programação
+
+- Utilize o Streams para contatenar todos os elementos da lista em uma única String separados por vírgula. (Vírgula e espaço)
+
+3. Você tem uma lista de valores de vendas mensais. Por exemplo:
+
+->  List<Double> vendasMensal = List.of(2400.00, 3200.00, 3100.00, 3404.00);
+
+- Collectors.summarizingDouble para obter de uma vez o total de vendas, média, valor mínimo, valor máximo, média e bem quantidade
+de entradas. Exiba seus valores...

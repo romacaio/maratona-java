@@ -1,0 +1,7 @@
+1. Considere uma lista de frutas
+
+-> ("Maça", "Banana", "Laranja", "Banana")
+
+- Usando Collectors.collectingAndThen obtenha uma lisra imutável (não modificável) contendo as frutas em ordem
+alfabética e sem duplicatas. Dica: use o Collections.unmodifiableList
+

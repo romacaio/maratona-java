@@ -1,0 +1,15 @@
+1. Crie uma classe Funcionário com os atributos: String nome, String departamento, int idade, double salário, boolean ativo
+
+- Use groupingBy para agrupar os funcionários por departamento. Onde a chave é o nome do departamento
+e valor é a lista de funcionários dessse departamento.
+
+2. Usando a mesma lista de employees, queremos separar os funcionários ativos dos inativos.
+
+Utilize Collectors.partitioningBy para gerar um Map<Boolean, List<Employee>> onde a chave true
+corresponde à lista de funcionários ativos e false à lista de inativos. Quantos funcionários ativos e inativos existem respectivamente?
+
+3. Ainda com a lista employees, suponha que desejamos saber o total de salário pago por departamento.
+
+Utilize groupingBy com um Collector de redução (por exemplo, Collectors.summingDouble)
+para criar um mapa do tipo Map<String, Double> associando cada departamento à soma dos salários de seus funcionários.
+(Ex: "IT" -> 7500.0, "Sales" -> 8500.0, "HR" -> 4500.0 com base na lista de exemplo.)

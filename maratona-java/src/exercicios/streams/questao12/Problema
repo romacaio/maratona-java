@@ -1,0 +1,12 @@
+1. Dado uma lista de palavras:
+
+-> List<String> transportes = List.of("Bike", "Carro", "Navio", "Avião", "Trem");
+
+- Agrupe pelos tamnahos das plavras (número de letras), em que a chave seja o tamanho da plavra e o valor a lista
+de palvras do respectivo tamanho.
+
+2. utilize essa lista de nomes:
+
+-> ("Carlos","Ana","Bruno","Eduarda")
+
+ordene usando Stream por ordem alfabética
