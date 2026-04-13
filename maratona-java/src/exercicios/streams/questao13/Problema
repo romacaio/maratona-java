@@ -1,0 +1,10 @@
+1. Considere novamente a lista employees (com campos nome, salário, etc)
+
+Utilize sorted com um comparador customizado para ordenar os funcionários por salário em ordem decrescente
+(do maior para o menor salário).
+
+Em caso de salários iguais, ordene os funcionários com esses salários em
+ordem alfabética pelo nome. Apresente a lista ordenada final (nome, salário) seguindo esses critérios.
+
+2.  Associe cada departamento à lista de nomes (Apenas nomes) de funcionários ativos naquele departamento, combine filter com groupingBye e
+mapping.
